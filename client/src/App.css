@@ -1,0 +1,22 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  margin: 0 0.5rem;
+}
+
+.table-hover tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
